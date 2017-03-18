@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://taka.cloud" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: takahasegawa
 github_username:  takahisah
+linkedin_username: takahisah
 
 # Build settings
 markdown: kramdown

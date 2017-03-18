@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Init"
+date:   2017-03-17 22:59:19 -0700
+categories: blog
+---
+The plan for this blog is to:
+- Talk about the things I learn about Machine Learning
+- Share some interesting data and analysis
+
+Aiming for once a week updates.
