@@ -5,7 +5,7 @@ date:   2017-03-17 22:59:19 -0700
 categories: blog
 ---
 Planning to write about:
-- The things I learned in Georgia Tech OMSCS
+- The things I learned mostly about ML
 - The books I read
 - The things I build
 - The things I buy
