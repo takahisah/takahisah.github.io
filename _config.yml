@@ -16,11 +16,10 @@
 title: Taka's blog
 email: me@taka.cloud
 description: > # this means to ignore newlines until "baseurl:"
-  Discussion of data science topics and random explorations of data
+  Learning, reading, building and buying
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://taka.cloud" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://taka.cloud" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: takahasegawa
-github_username:  takahisah
 
 # Build settings
 markdown: kramdown
