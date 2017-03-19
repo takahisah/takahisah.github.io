@@ -26,9 +26,12 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
 
 # Google services
 google_analytics: UA-17272429-3
+
+paginate: 5
