@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Goals of this blog"
+title:  "Hello world"
 date:   2017-03-17 22:59:19 -0700
 categories: blog
 ---
-Planning to write about:
-- The things I learned mostly about ML
-- The books I read
-- The things I build
-- The things I buy
 
-Aiming for once a week updates.
+I needed to do something with my .cloud domain so I decided to start a blog. I'm planning to write about:
+- Learnings from class in Georgia Tech OMSCS
+- Impulse purchases of electronics
+- Book reviews of Non-Fiction
+- Code I write as a hobby
+
+Aiming for a post maybe every other week.
