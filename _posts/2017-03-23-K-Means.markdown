@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Explorations with K-Means"
+tags: ml
+
+---
+
+K-Means is a clustering algorithm. Given a set of data points, it tries to find k blobs. Take a dataset that looks like the chart below. With k=4, the clusters will look like this:
+
+<img src="/assets/kmeans1.png" alt="kmeans1" style="width: 250px;"/>
+<img src="/assets/kmeans2.png" alt="kmeans2" style="width: 250px;"/>
+
+And suddenly the world makes sense again, because K-Means was able to identify the relatively distinct clusters. Alas, but what if k=3? or k=10?
+
+<img src="/assets/kmeans3.png" alt="kmeans3" style="width: 250px;"/>
+<img src="/assets/kmeans4.png" alt="kmeans4" style="width: 250px;"/>
+
+With k=3, the centroid on the left is far away from any of the green data points belonging to it. And with k=10, the blobs seem to be randomly split apart.
+
+It seems that for the clusters to make sense, we need to tell K-means what the right k is. It is trivial to visually identify clusters in 2D space like the points above, but what about datasets that have more than 2 attributes? One way to think about clustering is, "what is the smallest number of circles that explains the maximum amount of data points?" In order to visualize that, there is something called an [Elbow Method](https://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set#The_elbow_method) which takes a range of values for k as the x axis, and the total sum of squared distance between the data points and the clusters as the y axis. For our example it will look something like this:
+
+<img src="/assets/kmeans5.png" alt="kmeans5" style="width: 500px;"/>
+
+The line slopes down sharply until k=4 and levels off after that, depicting the shape of an elbow. The point that looks like the elbow is a good value for k, because after that point increasing k has little impact on reducing the sum of distances from points to clusters. There are many more methods to tune k, as described in this [Stack Overflow answer](http://stackoverflow.com/questions/15376075/cluster-analysis-in-r-determine-the-optimal-number-of-clusters), however in the end the right value for k very much depends on the goal of the clustering exercise.
+
+The code for generating some of these charts can be found on [this Github repo](https://github.com/takahisah/kmeans-explore).
