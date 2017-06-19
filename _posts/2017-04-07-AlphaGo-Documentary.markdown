@@ -9,4 +9,4 @@ Greg Kohs is premiering his documentary of AlphaGo at the [Tribeca Film Festival
 
 I watched all of the matches between Lee Sedol and AlphaGo live, and still remember the [reactions by the narrators when AlphaGo made a play during game 2](https://www.youtube.com/watch?v=l-GsfyVCBu0&feature=youtu.be&t=1h18m13s). Everybody thought was a mistake of some kind, but it turned out to win the match.
 
-It seems like they premier in New York only. Can't wait to see them come to nearby theatres or iTunes.
+It seems like they premier in New York only. Can't wait to see them come to nearby theaters or iTunes.
